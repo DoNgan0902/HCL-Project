@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="Login.TestLogin"/>
+      <class name="ClientRegistration.Form1"/>
+      <class name="ClientRegistration.Form2"/>
+      <class name="ClientRegistration.Form3"/>
+      <class name="SupplierRegistration.TestBankDetails"/>
+      <class name="SupplierRegistration.TestPersonalDetails"/>
+      <class name="SupplierRegistration.TestUserDetails"/>
+      <class name="Search.TestSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
