@@ -1,3 +1,3 @@
 # HCL-Project
 # The Online Book Store
-#Members: Vuong Dieu Linh, Nguyen Thi Chung, Do Thi Ngan, Truong Hoang Long.
+#Members: Do Thi Ngan, Vuong Dieu Linh, Nguyen Thi Chung, Truong Hoang Long.
