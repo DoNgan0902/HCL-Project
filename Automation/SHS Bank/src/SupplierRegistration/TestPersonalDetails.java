@@ -50,7 +50,7 @@ public class TestPersonalDetails {
 	public void beforeClass() throws InterruptedException {
 		System.setProperty("webdriver.edge.driver", "D:\\AutoTest\\edgedriver_win64\\msedgedriver.exe");
 		driver = new EdgeDriver();
-		report = new ExtentReports(System.getProperty("user.dir") + "/test-output/MenuTestResults.html");
+		report = new ExtentReports(System.getProperty("user.dir") + "/test-output/TestPersonalDetails.html");
 		test = report.startTest("SHS Bank - Supplier Registration - Personal Details");
 	}
 

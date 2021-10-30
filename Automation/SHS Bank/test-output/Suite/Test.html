@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>33/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>34/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 29 12:17:44 ICT 2021</td>
+<td>Started on:</td><td>Sat Oct 30 11:59:37 ICT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>125 seconds (125667 ms)</td>
+<tr><td>Total time:</td><td>104 seconds (104218 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,12 +75,83 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='ClientRegistration.Form3.testForm3()'><b>testForm3</b><br>Test class: ClientRegistration.Form3<br>Parameters: 10010300, pass</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//mat-label[text()=&apos;Validation Failed&apos;]&quot;}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63814}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a4da1adba25625c7d859aa62dfb3e295
+*** Element info: {Using=xpath, value=//mat-label[text()=&apos;Validation Failed&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at ClientRegistration.Form3.testForm3(Form3.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1032901250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1032901250'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//mat-label[text()=&apos;Validation Failed&apos;]&quot;}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63814}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a4da1adba25625c7d859aa62dfb3e295
+*** Element info: {Using=xpath, value=//mat-label[text()=&apos;Validation Failed&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at ClientRegistration.Form3.testForm3(Form3.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>8</td>
+<td>ClientRegistration.Form3@3d5c822d</td></tr>
+<tr>
 <td title='Login.TestLogin.testLogin()'><b>testLogin</b><br>Test class: Login.TestLogin<br>Parameters: banker1, password, pass</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at Login.TestLogin.testLogin(TestLogin.java:71)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1415937490", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1415937490'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1314456586", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1314456586'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
@@ -98,36 +169,90 @@ function toggleAllBoxes() {
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>6</td>
-<td>Login.TestLogin@79da8dc5</td></tr>
+<td>13</td>
+<td>Login.TestLogin@3fb1549b</td></tr>
+<tr>
+<td title='Search.TestSearch.searchBySupplierID()'><b>searchBySupplierID</b><br>Test class: Search.TestSearch</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;supplierId&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3788, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f557dbf5-4d8f-40d4-a894-aa19df343ff0
+*** Element info: {Using=name, value=supplierId}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Search.TestSearch.searchBySupplierID(TestSearch.java:99)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace301154308", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace301154308'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;supplierId&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3788, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f557dbf5-4d8f-40d4-a894-aa19df343ff0
+*** Element info: {Using=name, value=supplierId}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Search.TestSearch.searchBySupplierID(TestSearch.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>Search.TestSearch@3e84448c</td></tr>
 <tr>
 <td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: 10001500</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//mat-icon[@role=&apos;img&apos;]/following-sibling::mat-label[1]&quot;}
-  (Session info: MicrosoftEdge=95.0.1020.30)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@formcontrolname=&apos;accountNumber&apos;]&quot;}
+  (Session info: MicrosoftEdge=95.0.1020.38)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
 System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 95.0.1020.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61645}, msedge: {msedgedriverVersion: 95.0.1020.30 (09f7018e2a65a..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e538c3337a9cf02f94d5f8f4eb36477
-*** Element info: {Using=xpath, value=//mat-icon[@role=&apos;img&apos;]/following-sibling::mat-label[1]}
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 95.0.1020.38, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63852}, msedge: {msedgedriverVersion: 95.0.1020.30 (09f7018e2a65a..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b8d80cae1eed51051461611566ebd20e
+*** Element info: {Using=xpath, value=//input[@formcontrolname=&apos;accountNumber&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -138,18 +263,22 @@ Session ID: 1e538c3337a9cf02f94d5f8f4eb36477
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at SupplierRegistration.TestBankDetails.testBankDetails(TestBankDetails.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace871097584", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace871097584'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//mat-icon[@role=&apos;img&apos;]/following-sibling::mat-label[1]&quot;}
-  (Session info: MicrosoftEdge=95.0.1020.30)
+	at Pages.BankDetails.setAccountnum(BankDetails.java:15)
+	at Pages.BankDetails.regBankDetails(BankDetails.java:23)
+	at SupplierRegistration.TestBankDetails.testBankDetails(TestBankDetails.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1048019391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1048019391'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@formcontrolname=&apos;accountNumber&apos;]&quot;}
+  (Session info: MicrosoftEdge=95.0.1020.38)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
 System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 95.0.1020.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61645}, msedge: {msedgedriverVersion: 95.0.1020.30 (09f7018e2a65a..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e538c3337a9cf02f94d5f8f4eb36477
-*** Element info: {Using=xpath, value=//mat-icon[@role=&apos;img&apos;]/following-sibling::mat-label[1]}
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 95.0.1020.38, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63852}, msedge: {msedgedriverVersion: 95.0.1020.30 (09f7018e2a65a..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b8d80cae1eed51051461611566ebd20e
+*** Element info: {Using=xpath, value=//input[@formcontrolname=&apos;accountNumber&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -165,7 +294,9 @@ Session ID: 1e538c3337a9cf02f94d5f8f4eb36477
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at SupplierRegistration.TestBankDetails.testBankDetails(TestBankDetails.java:90)
+	at Pages.BankDetails.setAccountnum(BankDetails.java:15)
+	at Pages.BankDetails.regBankDetails(BankDetails.java:23)
+	at SupplierRegistration.TestBankDetails.testBankDetails(TestBankDetails.java:77)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -178,65 +309,180 @@ Session ID: 1e538c3337a9cf02f94d5f8f4eb36477
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>8</td>
-<td>SupplierRegistration.TestBankDetails@be35cd9</td></tr>
+<td>25</td>
+<td>SupplierRegistration.TestBankDetails@6f46426d</td></tr>
 <tr>
-<td title='ClientRegistration.Form3.testForm3()'><b>testForm3</b><br>Test class: ClientRegistration.Form3</td>
-<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
-[public static void ClientRegistration.Form3.testForm3(java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: testForm3([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) 10001000,(java.lang.String) pass]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1289906124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1289906124'><pre>org.testng.internal.reflect.MethodMatcherException: 
-[public static void ClientRegistration.Form3.testForm3(java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: testForm3([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) 10001000,(java.lang.String) pass]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
-	at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+<td title='ClientRegistration.Form3.testForm3()'><b>testForm3</b><br>Test class: ClientRegistration.Form3<br>Parameters: 10020000, fail</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//mat-label[text()=&apos;Validation Failed&apos;]&quot;}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63814}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a4da1adba25625c7d859aa62dfb3e295
+*** Element info: {Using=xpath, value=//mat-label[text()=&apos;Validation Failed&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at ClientRegistration.Form3.testForm3(Form3.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1630937679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1630937679'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//mat-label[text()=&apos;Validation Failed&apos;]&quot;}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63814}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a4da1adba25625c7d859aa62dfb3e295
+*** Element info: {Using=xpath, value=//mat-label[text()=&apos;Validation Failed&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at ClientRegistration.Form3.testForm3(Form3.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>0</td>
-<td>ClientRegistration.Form3@41e1e210</td></tr>
+<td>9</td>
+<td>ClientRegistration.Form3@3d5c822d</td></tr>
+<tr>
+<td title='Search.TestSearch.searchByInvoice()'><b>searchByInvoice</b><br>Test class: Search.TestSearch</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;invoiceNumber&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3788, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f557dbf5-4d8f-40d4-a894-aa19df343ff0
+*** Element info: {Using=name, value=invoiceNumber}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Search.TestSearch.searchByInvoice(TestSearch.java:79)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1264855949", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1264855949'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;invoiceNumber&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;ADMIN&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3788, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f557dbf5-4d8f-40d4-a894-aa19df343ff0
+*** Element info: {Using=name, value=invoiceNumber}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Search.TestSearch.searchByInvoice(TestSearch.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>4</td>
+<td>Search.TestSearch@3e84448c</td></tr>
+<tr>
+<td title='ClientRegistration.Form3.testForm3()'><b>testForm3</b><br>Test class: ClientRegistration.Form3<br>Parameters: 10001000, pass</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at ClientRegistration.Form3.testForm3(Form3.java:58)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1274096061", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1274096061'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at ClientRegistration.Form3.testForm3(Form3.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>20</td>
+<td>ClientRegistration.Form3@3d5c822d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -246,170 +492,175 @@ Arguments: [(java.lang.String) 10001000,(java.lang.String) pass]
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SupplierRegistration.TestUserDetails.UserDetails()'><b>UserDetails</b><br>Test class: SupplierRegistration.TestUserDetails<br>Parameters: Chu, Chun, Chun, fail</td>
+<td title='ClientRegistration.Form1.testForm1()'><b>testForm1</b><br>Test class: ClientRegistration.Form1<br>Parameters: banker1, clientPass01, clientPass01, fail</td>
 <td></td>
-<td>0</td>
-<td>SupplierRegistration.TestUserDetails@44821a96</td></tr>
-<tr>
-<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: John, Adam, email@testemail.com, 911202546, sample address, hanoi, sample state, hanoi, Viet Nam, pass</td>
-<td></td>
-<td>5</td>
-<td>ClientRegistration.Form2@29e495ff</td></tr>
-<tr>
-<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: Chunggggggggggggggggggggggggggggggggggg, Nguyennnnnnnnnnnnnnnnnnnnnnnnnnnnnnn, chunnt1112@gmail.com, 12345, Van Xuan Nam, Thai binh, Thai Thuy, Thuy Xuan, Viet Nam, fail</td>
-<td></td>
-<td>2</td>
-<td>SupplierRegistration.TestPersonalDetails@4944252c</td></tr>
-<tr>
-<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: , , , , , , , , , fail</td>
-<td></td>
-<td>1</td>
-<td>ClientRegistration.Form2@29e495ff</td></tr>
-<tr>
-<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: Ch, Ng, chunnt1112, abcd, Van Xuan Nam, Thai binh, Thai Thuy, Thuy Xuan, Viet Nam, fail</td>
-<td></td>
-<td>2</td>
-<td>SupplierRegistration.TestPersonalDetails@4944252c</td></tr>
+<td>4</td>
+<td>ClientRegistration.Form1@759d26fb</td></tr>
 <tr>
 <td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: abcd</td>
 <td></td>
-<td>3</td>
-<td>SupplierRegistration.TestBankDetails@be35cd9</td></tr>
-<tr>
-<td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: 10000001</td>
-<td></td>
-<td>3</td>
-<td>SupplierRegistration.TestBankDetails@be35cd9</td></tr>
-<tr>
-<td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: 1000005</td>
-<td></td>
-<td>3</td>
-<td>SupplierRegistration.TestBankDetails@be35cd9</td></tr>
-<tr>
-<td title='ClientRegistration.Form1.testForm1()'><b>testForm1</b><br>Test class: ClientRegistration.Form1<br>Parameters: banker1, clientPass01, clientPass01, fail</td>
-<td></td>
-<td>1</td>
-<td>ClientRegistration.Form1@2f8dad04</td></tr>
-<tr>
-<td title='Search.TestSearch.searchByClientID()'><b>searchByClientID</b><br>Test class: Search.TestSearch</td>
-<td></td>
-<td>4</td>
-<td>Search.TestSearch@732c2a62</td></tr>
-<tr>
-<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: John, , email@testemail.com, 12345, sample address, hanoi, sample state, hanoi, Viet Nam, fail</td>
-<td></td>
-<td>1</td>
-<td>ClientRegistration.Form2@29e495ff</td></tr>
-<tr>
-<td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: 100100010</td>
-<td></td>
-<td>3</td>
-<td>SupplierRegistration.TestBankDetails@be35cd9</td></tr>
-<tr>
-<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: Chung, , chunnt1112@, 12345, Van Xuan Nam, Thai binh, Thai Thuy, Thuy Xuan, Viet Nam, fail</td>
-<td></td>
-<td>2</td>
-<td>SupplierRegistration.TestPersonalDetails@4944252c</td></tr>
-<tr>
-<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: , , , , , , , , , fail</td>
-<td></td>
-<td>2</td>
-<td>SupplierRegistration.TestPersonalDetails@4944252c</td></tr>
-<tr>
-<td title='Search.TestSearch.searchByInvoice()'><b>searchByInvoice</b><br>Test class: Search.TestSearch</td>
-<td></td>
-<td>0</td>
-<td>Search.TestSearch@732c2a62</td></tr>
-<tr>
-<td title='Search.TestSearch.searchBySupplierID()'><b>searchBySupplierID</b><br>Test class: Search.TestSearch</td>
-<td></td>
-<td>0</td>
-<td>Search.TestSearch@732c2a62</td></tr>
-<tr>
-<td title='ClientRegistration.Form1.testForm1()'><b>testForm1</b><br>Test class: ClientRegistration.Form1<br>Parameters: clientTest, clientPass01, clientPass01, pass</td>
-<td></td>
-<td>4</td>
-<td>ClientRegistration.Form1@2f8dad04</td></tr>
-<tr>
-<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, email@testemail.com, 12345, sample address, hanoi, sample state, hanoi, Viet Nam, fail</td>
-<td></td>
-<td>2</td>
-<td>ClientRegistration.Form2@29e495ff</td></tr>
-<tr>
-<td title='SupplierRegistration.TestUserDetails.UserDetails()'><b>UserDetails</b><br>Test class: SupplierRegistration.TestUserDetails<br>Parameters: Chung, Chung12, Chung12, pass</td>
-<td></td>
-<td>4</td>
-<td>SupplierRegistration.TestUserDetails@44821a96</td></tr>
-<tr>
-<td title='Login.TestLogin.testLogin()'><b>testLogin</b><br>Test class: Login.TestLogin<br>Parameters: account1, 123456, fail</td>
-<td></td>
-<td>0</td>
-<td>Login.TestLogin@79da8dc5</td></tr>
-<tr>
-<td title='ClientRegistration.Form1.testForm1()'><b>testForm1</b><br>Test class: ClientRegistration.Form1<br>Parameters: clientTest, clientPass01, clientPass012, fail</td>
-<td></td>
-<td>1</td>
-<td>ClientRegistration.Form1@2f8dad04</td></tr>
-<tr>
-<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: Joh, Ada, email@testemail.com, 12345, sample address, hanoi, sample state, hanoi, Viet Nam, pass</td>
-<td></td>
-<td>2</td>
-<td>ClientRegistration.Form2@29e495ff</td></tr>
-<tr>
-<td title='Login.TestLogin.testLogin()'><b>testLogin</b><br>Test class: Login.TestLogin<br>Parameters: 12345, nganngan, fail</td>
-<td></td>
-<td>0</td>
-<td>Login.TestLogin@79da8dc5</td></tr>
-<tr>
-<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: Jo, Ad, email@, abcd, sample address, hanoi, sample state, hanoi, Viet Nam, fail</td>
-<td></td>
-<td>1</td>
-<td>ClientRegistration.Form2@29e495ff</td></tr>
-<tr>
-<td title='SupplierRegistration.TestUserDetails.UserDetails()'><b>UserDetails</b><br>Test class: SupplierRegistration.TestUserDetails<br>Parameters: banker1, Chung12, Chung12, fail</td>
-<td></td>
-<td>0</td>
-<td>SupplierRegistration.TestUserDetails@44821a96</td></tr>
+<td>6</td>
+<td>SupplierRegistration.TestBankDetails@6f46426d</td></tr>
 <tr>
 <td title='SupplierRegistration.TestUserDetails.UserDetails()'><b>UserDetails</b><br>Test class: SupplierRegistration.TestUserDetails<br>Parameters: Chung, Chung12, Chung123, fail</td>
 <td></td>
-<td>0</td>
-<td>SupplierRegistration.TestUserDetails@44821a96</td></tr>
+<td>2</td>
+<td>SupplierRegistration.TestUserDetails@49c7b90e</td></tr>
+<tr>
+<td title='Login.TestLogin.testLogin()'><b>testLogin</b><br>Test class: Login.TestLogin<br>Parameters: 12345, nganngan, fail</td>
+<td></td>
+<td>2</td>
+<td>Login.TestLogin@3fb1549b</td></tr>
+<tr>
+<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: Jo, Ad, email@, abcd, sample address, hanoi, sample state, hanoi, Viet Nam, fail</td>
+<td></td>
+<td>7</td>
+<td>ClientRegistration.Form2@3c73951</td></tr>
 <tr>
 <td title='SupplierRegistration.TestUserDetails.UserDetails()'><b>UserDetails</b><br>Test class: SupplierRegistration.TestUserDetails<br>Parameters: , , , fail</td>
 <td></td>
-<td>0</td>
-<td>SupplierRegistration.TestUserDetails@44821a96</td></tr>
-<tr>
-<td title='ClientRegistration.Form1.testForm1()'><b>testForm1</b><br>Test class: ClientRegistration.Form1<br>Parameters: , , , fail</td>
-<td></td>
 <td>1</td>
-<td>ClientRegistration.Form1@2f8dad04</td></tr>
+<td>SupplierRegistration.TestUserDetails@49c7b90e</td></tr>
 <tr>
-<td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: </td>
+<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: , , , , , , , , , fail</td>
 <td></td>
 <td>3</td>
-<td>SupplierRegistration.TestBankDetails@be35cd9</td></tr>
+<td>SupplierRegistration.TestPersonalDetails@73700b80</td></tr>
+<tr>
+<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: John, , email@testemail.com, 12345, sample address, hanoi, sample state, hanoi, Viet Nam, fail</td>
+<td></td>
+<td>10</td>
+<td>ClientRegistration.Form2@3c73951</td></tr>
 <tr>
 <td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: Chung, Nguyen, chunnt1112@gmail.com, 12345, Van Xuan Nam, Thai binh, Thai Thuy, Thuy Xuan, Viet Nam, pass</td>
 <td></td>
-<td>6</td>
-<td>SupplierRegistration.TestPersonalDetails@4944252c</td></tr>
+<td>14</td>
+<td>SupplierRegistration.TestPersonalDetails@73700b80</td></tr>
 <tr>
-<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: Chu, Ngy, chunnt1112@gmail, 12345, Van Xuan Nam, Thai binh, Thai Thuy, Thuy Xuan, Viet Nam, pass</td>
+<td title='ClientRegistration.Form1.testForm1()'><b>testForm1</b><br>Test class: ClientRegistration.Form1<br>Parameters: clientTest, clientPass01, clientPass01, pass</td>
+<td></td>
+<td>13</td>
+<td>ClientRegistration.Form1@759d26fb</td></tr>
+<tr>
+<td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: </td>
+<td></td>
+<td>9</td>
+<td>SupplierRegistration.TestBankDetails@6f46426d</td></tr>
+<tr>
+<td title='SupplierRegistration.TestUserDetails.UserDetails()'><b>UserDetails</b><br>Test class: SupplierRegistration.TestUserDetails<br>Parameters: banker1, Chung12, Chung12, fail</td>
 <td></td>
 <td>2</td>
-<td>SupplierRegistration.TestPersonalDetails@4944252c</td></tr>
+<td>SupplierRegistration.TestUserDetails@49c7b90e</td></tr>
+<tr>
+<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: , , , , , , , , , fail</td>
+<td></td>
+<td>10</td>
+<td>ClientRegistration.Form2@3c73951</td></tr>
+<tr>
+<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, email@testemail.com, 12345, sample address, hanoi, sample state, hanoi, Viet Nam, fail</td>
+<td></td>
+<td>6</td>
+<td>ClientRegistration.Form2@3c73951</td></tr>
+<tr>
+<td title='SupplierRegistration.TestUserDetails.UserDetails()'><b>UserDetails</b><br>Test class: SupplierRegistration.TestUserDetails<br>Parameters: Chu, Chun, Chun, fail</td>
+<td></td>
+<td>1</td>
+<td>SupplierRegistration.TestUserDetails@49c7b90e</td></tr>
+<tr>
+<td title='ClientRegistration.Form1.testForm1()'><b>testForm1</b><br>Test class: ClientRegistration.Form1<br>Parameters: clientTest, clientPass01, clientPass012, fail</td>
+<td></td>
+<td>4</td>
+<td>ClientRegistration.Form1@759d26fb</td></tr>
+<tr>
+<td title='ClientRegistration.Form3.testForm3()'><b>testForm3</b><br>Test class: ClientRegistration.Form3<br>Parameters: abcd, fail</td>
+<td></td>
+<td>6</td>
+<td>ClientRegistration.Form3@3d5c822d</td></tr>
+<tr>
+<td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: 1000005</td>
+<td></td>
+<td>12</td>
+<td>SupplierRegistration.TestBankDetails@6f46426d</td></tr>
+<tr>
+<td title='ClientRegistration.Form1.testForm1()'><b>testForm1</b><br>Test class: ClientRegistration.Form1<br>Parameters: , , , fail</td>
+<td></td>
+<td>3</td>
+<td>ClientRegistration.Form1@759d26fb</td></tr>
+<tr>
+<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: John, Adam, email@testemail.com, 911202546, sample address, hanoi, sample state, hanoi, Viet Nam, pass</td>
+<td></td>
+<td>13</td>
+<td>ClientRegistration.Form2@3c73951</td></tr>
+<tr>
+<td title='SupplierRegistration.TestUserDetails.UserDetails()'><b>UserDetails</b><br>Test class: SupplierRegistration.TestUserDetails<br>Parameters: Chung, Chung12, Chung12, pass</td>
+<td></td>
+<td>6</td>
+<td>SupplierRegistration.TestUserDetails@49c7b90e</td></tr>
 <tr>
 <td title='Login.TestLogin.testLogin()'><b>testLogin</b><br>Test class: Login.TestLogin<br>Parameters: , , fail</td>
 <td></td>
-<td>0</td>
-<td>Login.TestLogin@79da8dc5</td></tr>
+<td>3</td>
+<td>Login.TestLogin@3fb1549b</td></tr>
 <tr>
 <td title='ClientRegistration.Form1.testForm1()'><b>testForm1</b><br>Test class: ClientRegistration.Form1<br>Parameters: cli, cli, cli, fail</td>
 <td></td>
-<td>1</td>
-<td>ClientRegistration.Form1@2f8dad04</td></tr>
+<td>3</td>
+<td>ClientRegistration.Form1@759d26fb</td></tr>
+<tr>
+<td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: 10000001</td>
+<td></td>
+<td>8</td>
+<td>SupplierRegistration.TestBankDetails@6f46426d</td></tr>
+<tr>
+<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: Chung, , chunnt1112@, 12345, Van Xuan Nam, Thai binh, Thai Thuy, Thuy Xuan, Viet Nam, fail</td>
+<td></td>
+<td>5</td>
+<td>SupplierRegistration.TestPersonalDetails@73700b80</td></tr>
+<tr>
+<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: Chunggggggggggggggggggggggggggggggggggg, Nguyennnnnnnnnnnnnnnnnnnnnnnnnnnnnnn, chunnt1112@gmail.com, 12345, Van Xuan Nam, Thai binh, Thai Thuy, Thuy Xuan, Viet Nam, fail</td>
+<td></td>
+<td>7</td>
+<td>SupplierRegistration.TestPersonalDetails@73700b80</td></tr>
+<tr>
+<td title='SupplierRegistration.TestBankDetails.testBankDetails()'><b>testBankDetails</b><br>Test class: SupplierRegistration.TestBankDetails<br>Parameters: 100100010</td>
+<td></td>
+<td>7</td>
+<td>SupplierRegistration.TestBankDetails@6f46426d</td></tr>
+<tr>
+<td title='Login.TestLogin.testLogin()'><b>testLogin</b><br>Test class: Login.TestLogin<br>Parameters: account1, 123456, fail</td>
+<td></td>
+<td>3</td>
+<td>Login.TestLogin@3fb1549b</td></tr>
+<tr>
+<td title='ClientRegistration.Form3.testForm3()'><b>testForm3</b><br>Test class: ClientRegistration.Form3<br>Parameters: 10000001, fail</td>
+<td></td>
+<td>8</td>
+<td>ClientRegistration.Form3@3d5c822d</td></tr>
+<tr>
+<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: Chu, Ngy, chunnt1112@gmail, 12345, Van Xuan Nam, Thai binh, Thai Thuy, Thuy Xuan, Viet Nam, pass</td>
+<td></td>
+<td>7</td>
+<td>SupplierRegistration.TestPersonalDetails@73700b80</td></tr>
+<tr>
+<td title='ClientRegistration.Form3.testForm3()'><b>testForm3</b><br>Test class: ClientRegistration.Form3<br>Parameters: , fail</td>
+<td></td>
+<td>10</td>
+<td>ClientRegistration.Form3@3d5c822d</td></tr>
+<tr>
+<td title='SupplierRegistration.TestPersonalDetails.PersonalDetails()'><b>PersonalDetails</b><br>Test class: SupplierRegistration.TestPersonalDetails<br>Parameters: Ch, Ng, chunnt1112, abcd, Van Xuan Nam, Thai binh, Thai Thuy, Thuy Xuan, Viet Nam, fail</td>
+<td></td>
+<td>5</td>
+<td>SupplierRegistration.TestPersonalDetails@73700b80</td></tr>
+<tr>
+<td title='ClientRegistration.Form2.testForm2()'><b>testForm2</b><br>Test class: ClientRegistration.Form2<br>Parameters: Joh, Ada, email@testemail.com, 12345, sample address, hanoi, sample state, hanoi, Viet Nam, pass</td>
+<td></td>
+<td>5</td>
+<td>ClientRegistration.Form2@3c73951</td></tr>
+<tr>
+<td title='Search.TestSearch.searchByClientID()'><b>searchByClientID</b><br>Test class: Search.TestSearch</td>
+<td></td>
+<td>8</td>
+<td>Search.TestSearch@3e84448c</td></tr>
 </table><p>
 </body>
 </html>

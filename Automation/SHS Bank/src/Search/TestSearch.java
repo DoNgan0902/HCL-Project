@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -118,7 +117,7 @@ public class TestSearch {
 		System.setProperty("webdriver.gecko.driver", "D:\\AutoTest\\geckodriver\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(500, TimeUnit.MILLISECONDS);
-		report = new ExtentReports(System.getProperty("user.dir") + "/test-output/MenuTestResults.html");
+		report = new ExtentReports(System.getProperty("user.dir") + "/test-output/TestSearch.html");
 		test = report.startTest("SHS Bank");
 	}
 

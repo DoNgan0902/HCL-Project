@@ -31,7 +31,6 @@ public class TestLogin {
 	private WebDriver driver;
 	private static String baseUrl = "http://54.237.43.64/";
 	private static String mainUrl = "http://54.237.43.64/dashboard";
-	//public static String username, password;
 	public static boolean isUsernamePresent, isPasswordPresent, isButtonPresent;
 	static ExtentTest test;
 	static ExtentReports report;
@@ -40,7 +39,7 @@ public class TestLogin {
 	public void beforeClass() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "D:\\AutoTest\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
-		report = new ExtentReports(System.getProperty("user.dir")+"/test-output/MenuTestResults.html");
+		report = new ExtentReports(System.getProperty("user.dir")+"/test-output/TestLogin.html");
 		test = report.startTest("TestLogin");
 	}
 

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SupplierRegistration.TestBankDetails">
+      <class name="Login.TestLogin">
         <methods>
-          <include name="testBankDetails" invocation-numbers="0"/>
-          <include name="afterClass"/>
           <include name="beforeClass"/>
+          <include name="testLogin" invocation-numbers="0"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- SupplierRegistration.TestBankDetails -->
+      </class> <!-- Login.TestLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

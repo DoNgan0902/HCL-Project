@@ -54,7 +54,7 @@ public class TestBankDetails {
 	public void beforeClass() throws Exception {
 		System.setProperty("webdriver.edge.driver", "D:\\AutoTest\\edgedriver_win64\\msedgedriver.exe");
 		driver = new EdgeDriver();
-		report = new ExtentReports(System.getProperty("user.dir") + "/test-output/MenuTestResults.html");
+		report = new ExtentReports(System.getProperty("user.dir") + "/test-output/TestBankDetails.html");
 		test = report.startTest("SHS Bank - Supplier Registration - Bank Details");
 	}
 

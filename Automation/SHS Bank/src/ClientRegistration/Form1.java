@@ -1,12 +1,14 @@
 package ClientRegistration;
 
+
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import XLSReader.XLSReader;
+import Pages.DataConfig;
+import Pages.Registration;
 
 import static org.testng.Assert.assertTrue;
 
@@ -25,6 +27,7 @@ public class Form1 {
 	private static String baseUrl = "http://54.237.43.64/sign-up/client";
 	static ExtentTest test;
 	static ExtentReports report;
+	Registration reg;
 
 
 	@BeforeClass
@@ -32,21 +35,19 @@ public class Form1 {
 		System.setProperty("webdriver.chrome.driver", "D:\\AutoTest\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(500, TimeUnit.MILLISECONDS);
-		report = new ExtentReports(System.getProperty("user.dir") + "/test-output/MenuTestResults.html");
+		report = new ExtentReports(System.getProperty("user.dir") + "/test-output/TestForm1.html");
 		test = report.startTest("SHS Bank - CLient Registration - Form1");
 	}
 
 	@Test(dataProvider = "Form1")
 	public void testForm1(String username, String password, String confirmPassword, String result)
 			throws InterruptedException {
+		driver.get(baseUrl);
+		reg = new Registration(driver);
+		reg.fistForm(username, password, confirmPassword);
+		
 
 		
-		
-		driver.get(baseUrl);
-		driver.findElement(By.xpath("//input[@formcontrolname='userId']")).sendKeys(username);
-		driver.findElement(By.xpath("//input[@formcontrolname='password']")).sendKeys(password);
-		driver.findElement(By.xpath("//input[@formcontrolname='confirm_password']")).sendKeys(confirmPassword);
-		driver.findElement(By.xpath("//span[text()='Next']")).click();
 		Thread.sleep(1000);
 
 		
